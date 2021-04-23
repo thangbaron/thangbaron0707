@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shopee</title>
+	<link rel="stylesheet" type="text/css" href="stylemain.css">
+</head>
+<body>
+	<div id="menu" onmousemove="outbox()">
+		<a class="gotop" href="#">
+			<img src="png/gotop.png" height="50px" width="50px" alt="">
+		</a>
+		<ul>
+			<li>
+				<a href="">
+					Vào cửa hàng trên ứng dụng shopee
+				</a>
+				<div id="qrcode" onmousemove="outboxs()">
+					<a href="">
+						<img src="png/qrcode.png" height="80px" width="80px" alt="">
+					</a>
+				</div>
+			</li>
+			<li>
+				<a href="">Kết nối</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="png/face.png" height="15px" width="15px" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/insta.jpg" height="15px" width="15px" style="border-radius: 10px" alt="">
+				</a>
+			</li>
+		</ul>
+		<script>
+			function outbox(){
+				document.getElementById("menu").style.display = "block";
+			}
+			function outboxs(){
+				document.getElementById("qrcode").style.display = "none";
+			}
+		</script>
+		<ul class="menuright" onmousemove="display()">
+			<li>
+				<a href="">
+					<img src="img/panda.jpg" height="15px" width="15px" alt="" style="border-radius: 7px">
+					<span><ins>Văn Thắng</ins></span>
+				</a>
+				<div id="eventproduct" onmousemove="displays()">
+					<p>Tài khoản của bạn.</p>
+				</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="png/phone.png" height="15px" width="15px" alt="">
+					<span><ins>Trợ giúp</ins><span>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="png/bell.png" height="15px" width="15px" style="border-radius: 10px" alt="">
+					<span><ins>Thông báo</ins></span>
+				</a>
+			</li>
+		</ul>
+		<script>
+			function display(){
+				document.getElementById("menuright").style.display = "block";
+			}
+			function displays(){
+				document.getElementById("eventproduct").style.display = "none";
+			}
+		</script>
+		<div class="bag">
+			<a href="">
+				<img src="png/img1.png" width="50px" height="50px" style="border-radius: 20px" alt="">
+				<a href="">Shopee</a>
+			</a>
+		</div>
+		<div class="placeholder">
+			<input type="text" name="?" placeholder="Tìm kiếm sản phẩm tại đây" height="50px" width="900px">
+			<div class="buttonsearch">
+				<a href="">
+					<img src="png/search.png" style="color: #fff" alt="">
+				</a>
+			</div>
+			<div class="inputleft">
+				<a href="">
+					Trong shop
+					<img src="img/tich.jpg" height="15px" width="15px" style="border-radius: 7px" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="icon__last">
+			<a href="">
+				<img src="png/giohang.png" width="40px" height="30px" style="border-radius: 10px" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="body">
+		<div class="bodyleft">
+			<ul>
+				<li>
+					<a href="">
+						<img src="png/danhmuc.png" width="15px" height="15px" alt="">
+						<b style="font-size: 20px">Danh mục</b>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Gang tay phượt
+						<img src="png/right.png" width="11px" height="11px" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">Mũ bảo hiểm</a>
+				</li>
+				<li>
+					<a href="">Giày leo núi</a>
+				</li>
+				<li>
+					<a href="">Giáp bảo hộ</a>
+				</li>
+				<li>
+					<a href="">Túi đeo chéo</a>
+				</li>
+				<li>
+					<a href="">Kính đi phượt</a>
+				</li>
+				<li>
+					<a href="">Áo đi phượt</a>
+				</li>
+				<li>
+					<a href="">Balo đi phượt</a>
+				</li>
+			</ul>
+		</div>
+		<div class="bodyright">
+			<div id="bodyrightmenu" onmousemove="displaytwo()">
+				<ul>
+					<li>
+						<a href="">Sắp xếp theo</a>
+					</li>
+					<li>
+						<a href="">Phổ biến</a>
+					</li>
+					<li>
+						<a href="">Mới nhất</a>
+					</li>
+					<li>
+						<a href="">Bán chạy</a>
+					</li>
+					<li>
+						<a href="">Giá
+							<img src="png/bottom.png" height="15px" width="15px" alt="">
+						</a>
+						<div id="boxprice" onmousemove="displaytwos()">
+							<p>Giá: Thấp đến cao</p>
+							<p>Giá: Cao đến thấp</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="">
+					<li>
+						<a href=""><b style="color: #fe6433">1</b>/ 14</a>
+					</li>
+					<li class="">
+						<a href="">
+							<img src="png/left.png" height="15px" width="15px" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="png/right.png" height="15px" width="15px" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="gridall">
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe1.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe2.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe3.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe4.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe5.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe6.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/hatter.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe8.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe9.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe10.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe11.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe12.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe13.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe14.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe15.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe16.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe17.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe18.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe19.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe20.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe21.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe22.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe23.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="strikeandpattem">
+					<div class="ovefloatding">
+						<p>
+							<a href="">yêu thích</a>
+						</p>
+					</div>
+					<div class="saleperson">
+						<p>
+							<a class="changecolor" href="#">43%</a>
+							<a class="colorchange" href="#">GIẢM</a>
+						</p>
+					</div>
+					<img src="img/yohe24.jpg" height="150px" 
+					width="150px" alt="">
+					<div class="strike">
+						<p>
+							<a href="#">
+								<ins>đ</ins><del>100.000</del>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="numbermenubody">
+				<ul>
+					<li>
+						<a href=""><</a>
+					</li>
+					<li>
+						<a href="">1</a>
+					</li>
+					<li>
+						<a href="">2</a>
+					</li>
+					<li>
+						<a href="">3</a>
+					</li>
+					<li>
+						<a href="">4</a>
+					</li>
+					<li>
+						<a href="">5</a>
+					</li>
+					<li>
+						<a href="">...</a>
+					</li>
+					<li>
+						<a href="">14</a>
+					</li>
+					<li>
+						<a href="">></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script>
+			function displaytwo(){
+				document.getElementById("bodyrightmenu").style.display = "block";
+			}
+			function displaytwos(){
+				document.getElementById("boxprice").style.display = "none";
+			}
+		</script>
+	</div>
+	<footer class="footer">
+		<div class="footermenu">
+			<ul>
+				<li>
+					<a href="">
+						<b style="color: #000100">CHĂM SÓC KHÁCH HÀNG</b>
+					</a>
+				</li>
+				<li>
+					<a href="">Trung tâm trợ giúp</a>
+				</li>
+				<li>
+					<a href="">Shopee-Mail</a>
+				</li>
+				<li>
+					<a href="">Hướng dẫn mua hàng</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footermenu">
+			<ul>
+				<li>
+					<a href="">
+						<b style="color: #000100">GIỚI THIỆU</b>
+					</a>
+				</li>
+				<li>
+					<a href="">Giới Thiệu</a>
+				</li>
+				<li>
+					<a href="">Tuyển dụng</a>
+				</li>
+				<li>
+					<a href="">Điều Khoản</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footermenu">
+			<ul>
+				<li>
+					<a href="">
+						<b style="color: #000100">THEO DÕI</b>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="png/face.png" width="15px" height="15px" alt="">
+						Facebook
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/insta.jpg" width="15px" height="15px" alt="">
+						Instagram
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="png/linkedin.png" width="15px" height="15px" alt="">
+						Linkedin
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footermenu">
+			<ul>
+				<li>
+					<a href="">
+						<b style="color: #000100">DANH MỤC</b>
+					</a>
+				</li>
+				<li>
+					<a href="">Mũ bảo hiểm</a>
+				</li>
+				<li>
+					<a href="">Phụ kiện phượt</a>
+				</li>
+				<li>
+					<a href="">Đồ bảo hộ</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footermenu">
+			<ul>
+				<li>
+					<a href="">
+						<b style="color: #000100">VÀO CỬA HÀNG TRÊN ỨNG DỤNG</b>
+					</a>
+				</li>
+				<li>
+					<div class="iconqrcode">
+						<a href="">
+							<img src="png/qrcode.png" width="50px" height="50px" alt="">
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="googleplay">
+						<a href="">
+							<img src="png/googleplay.png" width="15px" height="15px" alt="">
+							Google Play
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="appstore">
+						<a href="">
+							<img src="png/appstore.png" width="15px" height="15px" alt="">
+							App Store
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<div class="endfooter">
+		<span>@2020 - Bản quyền thuộc về Công ty Shopee</span>
+	</div>
+</body>
+</html>
