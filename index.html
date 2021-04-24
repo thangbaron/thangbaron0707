@@ -80,8 +80,7 @@
 			</a>
 		</div>
 		<div class="placeholder">
-			<input type="text" name="?" id = "mes" onkeyup = "kq()" placeholder="Tìm kiếm sản phẩm tại đây" height="50px" width="900px">
-			<p><span id="demo"></span></p>
+			<input type="text" name="?" id="demo" onkeydown="keydownFunction()" onkeyup="keyupFunction()" placeholder="Tìm kiếm sản phẩm tại đây" height="50px" width="900px"
 			<div class="buttonsearch">
 				<a href="">
 					<img src="png/search.png" style="color: #fff" alt="">
@@ -869,10 +868,13 @@
 		<span>@2020 - Bản quyền thuộc về Công ty Shopee</span>
 	</div>
 	<script>
-		function kq(){
-			var x = document.getElementById("mes").value;
-			document.getElementById("demo").innerHTML = x;
-		}	
+		function keydownFunction() {
+ 			 document.getElementById("demo").style.backgroundColor = "red";
+		}
+
+		function keyupFunction() {
+		 	 document.getElementById("demo").style.backgroundColor = "green";
+		}
 	</script>
 </body>
 </html>
