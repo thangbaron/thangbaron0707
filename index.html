@@ -95,7 +95,7 @@
 		</div>
 		<div class="icon__last">
 			<a href="">
-				<img src="png/giohang.png" width="40px" height="30px" style="border-radius: 10px" alt="">
+				<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this) src="png/giohang.png" width="40px" height="30px" style="border-radius: 10px" alt="">
 			</a>
 		</div>
 	</div>
@@ -873,5 +873,16 @@
 			x.value = x.value.toUpperCase();
 		}
 	</script>
+	<script>
+		function bigImg(x) {
+		  x.style.height = "64px";
+		  x.style.width = "64px";
+		}
+
+		function normalImg(x) {
+		  x.style.height = "32px";
+		  x.style.width = "32px";
+		}
+	</script>						      
 </body>
 </html>
