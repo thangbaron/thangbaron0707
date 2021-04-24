@@ -80,7 +80,7 @@
 			</a>
 		</div>
 		<div class="placeholder">
-			<input type="text" name="?" id="demo" onkeydown="keydownFunction()" onkeyup="keyupFunction()" placeholder="Tìm kiếm sản phẩm tại đây" height="50px" width="900px"
+			<input type="text" name="?" id="demo"  onkeyup="keyupFunction()" placeholder="Tìm kiếm sản phẩm tại đây" height="50px" width="900px"
 			<div class="buttonsearch">
 				<a href="">
 					<img src="png/search.png" style="color: #fff" alt="">
@@ -868,12 +868,9 @@
 		<span>@2020 - Bản quyền thuộc về Công ty Shopee</span>
 	</div>
 	<script>
-		function keydownFunction() {
- 			 document.getElementById("demo").style.backgroundColor = "red";
-		}
-
 		function keyupFunction() {
-		 	 document.getElementById("demo").style.backgroundColor = "green";
+		 	var x = document.getElementById("demo");
+			x.value = x.value.toUpperCase();
 		}
 	</script>
 </body>
