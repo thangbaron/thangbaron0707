@@ -81,6 +81,7 @@
 		</div>
 		<div class="placeholder">
 			<input type="text" name="?" id = "mes" onkeyup = "kq()" placeholder="Tìm kiếm sản phẩm tại đây" height="50px" width="900px">
+			<p><span id="demo"></span></p>
 			<div class="buttonsearch">
 				<a href="">
 					<img src="png/search.png" style="color: #fff" alt="">
@@ -869,8 +870,8 @@
 	</div>
 	<script>
 		function kq(){
-			var x = document.getElementById("mes");
-			x.value = x.value.toUpperCase();
+			var x = document.getElementById("mes").value;
+			document.getElementById("demo").innerHTML = x;
 		}	
 	</script>
 </body>
